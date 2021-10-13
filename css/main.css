@@ -1,3 +1,10 @@
+@font-face {
+  font-family: IranSans;
+  src: url(../IRANSans/eot/IRANSansWeb.eot);
+  src: url(../IRANSans/ttf/IRANSansWeb.ttf), url(../IRANSans/woff/IRANSansWeb.woff), url(../IRANSans/woff2/IRANSansWeb.woff2);
+  font-weight: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -21,7 +28,7 @@ body {
 }
 
 .main-name {
-  font-family: "Nunito", sans-serif;
+  font-family: IranSans, sans-serif;
   font-size: 50px;
   color: #bbb;
   font-weight: 300;
@@ -30,7 +37,7 @@ body {
 }
 
 .sub-name {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: IranSans, sans-serif;
   font-size: 18px;
   color: #bbb;
   text-align: center;
@@ -40,7 +47,7 @@ body {
 }
 
 .main-heading {
-  font-family: "Dancing Script", cursive;
+  font-family: IranSans, sans-serif;
   font-size: 100px;
   font-weight: 300;
   color: #d3ab55;
@@ -48,7 +55,7 @@ body {
 }
 
 .sub-heading {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: IranSans, sans-serif;
   font-size: 60px;
   font-weight: 300;
   color: #bbb;
@@ -58,7 +65,7 @@ body {
 .main-btn {
   width: 170px;
   height: 40px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: IranSans, sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -98,5 +105,61 @@ body {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.about-us {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.about-us-left {
+  width: 40%;
+}
+
+.about-us-left img {
+  width: 100%;
+}
+
+.about-us-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+
+.about-us-right .main-heading {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.about-us-right .sub-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.about-us-right .stars {
+  margin: 20px 0;
+}
+
+.about-us-right .star {
+  font-size: 15px;
+  color: #d3ab55;
+  margin-left: 10px;
+}
+
+.about-us-right .description {
+  font-family: IranSans, sans-serif;
+  font-size: 12px;
+  color: #bbb;
+  direction: rtl;
+  text-align: justify;
+  line-height: 2;
+}
+
+.about-us-right .description::first-letter {
+  padding-right: 30px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -6,7 +6,15 @@ $color-secondary: #bbb;
 $font-dancingScript: "Dancing Script", cursive;
 $font-josefinSans: "Josefin Sans", sans-serif;
 $font-nunito: "Nunito", sans-serif;
-
+$font-IranSans: IranSans, sans-serif;
+@font-face {
+    font-family: IranSans;
+    src: url(../IRANSans/eot/IRANSansWeb.eot);
+    src: url(../IRANSans/ttf/IRANSansWeb.ttf),
+    url(../IRANSans/woff/IRANSansWeb.woff),
+    url(../IRANSans/woff2/IRANSansWeb.woff2);
+    font-weight: normal;
+}
 @mixin flexLayout {
     display: flex;
     justify-content: center;
